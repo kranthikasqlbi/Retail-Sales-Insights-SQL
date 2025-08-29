@@ -7,7 +7,7 @@ A retail store records its daily sales, including order details, customer inform
 ## Note: 
 This project is designed as a case study. I have also worked on similar real-time projects for clients in the car sales and retail domains, where I applied the same SQL and data analysis concepts to generate actionable business insights.
 
-#Business Motive
+# Business Motive
 Since the business is already profitable, our focus should be on increasing profits with minimal additional costs or expenses. To achieve this, I have identified 15 key business questions and designed SQL queries that will provide actionable insights. These queries will help in optimizing product strategy, customer engagement, delivery efficiency, and overall operational costs, ensuring sustained growth and higher profitability.
 
 
