@@ -61,7 +61,7 @@ How can overall expenses be reduced without affecting sales?
 
 # Solution
 
-1. Top-selling products
+### 1. Top-selling products
 
 SQL Idea:
 
@@ -70,11 +70,11 @@ FROM Sales
 GROUP BY ProductName
 ORDER BY TotalSold DESC;
 
-## Business Problem: Store doesn’t know which products sell the most.
-## Impact: Helps in stock management & prioritizing best-sellers → more sales with less effort.
+### Business Problem: Store doesn’t know which products sell the most.
+### Impact: Helps in stock management & prioritizing best-sellers → more sales with less effort.
 
 
-2. Least-selling products
+## 2. Least-selling products
 SELECT TOP 10 ProductName, SUM(Quantity) AS TotalSold
 FROM Sales
 GROUP BY ProductName
